@@ -1,0 +1,416 @@
+
+body {
+background:url('./../../img/wild-sea.jpg');
+height: 140px;
+display:block;
+padding:0 !important;
+margin:0; 
+
+}
+
+.carousel img:hover {
+  
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+       -webkit-filter: grayscale(50%);
+   -moz-filter: grayscale(50%);
+   -ms-filter: grayscale(50%);
+   filter: grayscale(50%);
+   filter: gray; /* IE 6-9 */ 
+}
+
+.art_grid img:hover {
+  
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.1);
+       -webkit-filter: grayscale(50%);
+   -moz-filter: grayscale(50%);
+   -ms-filter: grayscale(50%);
+   filter: grayscale(50%);
+   filter: gray; /* IE 6-9 */ 
+}
+
+h1,h3,p {
+	
+	color:black !important;
+}
+
+.f-copyright .col-sm-8 {
+    padding-top: 12px;
+}
+
+.white{
+    background-color:white !important;
+   /*  height:400px; */
+    color:#FFFFFF;
+  }
+  
+  #footer-sidebar .col-sm-3 {
+		background: #222222 !important;
+		min-height: 230px;
+	}
+	
+    #footer .block-cap h3 {
+		font-size: 18px !important;
+		color: #dcdcdc !important;
+		
+	}
+
+  /* Overridding nav-bar header menu */
+ @media (min-width: 1000px) {
+	  .navbar-inverse .navbar-nav>.active>a {
+		  
+		  border-bottom: 4px solid red;
+		  background-color: #222222 !important;
+	  }
+	  
+	  .navbar ul li a {
+		line-height: 3px;
+	}
+	  
+	.navbar {
+
+		border-radius: 0px !important;
+		backgroud-color: #212121 !important;
+		 min-height: 0px !important; 
+         margin-bottom: 0px !important; 
+	}
+	.navbar ul li a
+	{
+		list-style: none;
+		font-size: 13px;
+		color: white !important;
+		border-left: 1px solid #111;
+		-webkit-box-shadow: 1px 0 0 #323232 inset;
+		-moz-box-shadow: 1px 0 0 #323232 inset;
+		box-shadow: 1px 0 0 #323232 inset;
+	}
+
+.white {
+	    padding-top: 15px;
+}
+
+#footer-sidebar .col-sm-3 {
+    background: #222222 !important;
+    min-height: 230px;
+}
+
+  #footer-sidebar .block-cap h3 {
+		font-size: 18px !important;
+		color: #dcdcdc !important;
+		
+	}
+
+	#footer-sidebar, #footer-sidebar ul li a, #footer .meta-info .entry-author, #footer .widget_calendar tbody td, #footer .wp-calendar a, input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    color: #7d7d7d;
+   
+}
+
+#footer-sidebar ul li  {
+    list-style-type: none !important;
+  
+}
+#footer-sidebar ul li a  { 
+    margin-left:-30px 
+}
+
+
+.f-copyright {
+    background: #000;
+    border-top: 1px solid #2c2c2c;
+    padding: 15px 0px;
+    font-size: 13px;
+}
+
+.f-copyright, .f-copyright a {
+    color: #595858;
+}
+
+
+
+/* Block Caption */
+.block-cap-grid{border-bottom: 1px solid #cacaca;margin-bottom: 25px;margin-top: -5px;}
+.block-cap-grid h3{
+    font-size: 22px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #333333;
+    display: inline-block;
+    margin: 0px 0px -1px 0px;
+    padding: 0px 3px 9px 3px;
+}
+.block-cap-grid h3 strong{ font-weight: normal; }
+
+
+/* Grid image list patterns*/
+
+.art_grid img {
+    float: left;
+}
+
+.art_grid h3 {
+    /* float: left; */
+    margin-left: -60%;
+}
+.art_grid_right h3 {   
+ border-bottom: 4px solid #333333;
+ float: left;
+}
+.art_grid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.art_grid .col-sm-6 h3,.art_grid .col-sm-6 p {
+    text-align: left;
+    padding-left: 16px;
+}
+
+
+.learning_paths h3 {
+    margin-left: -74%;
+}
+.popular_training h3 {
+    margin-left: -70%;
+}
+
+.business_analytics h3 {
+    margin-left: -66%;
+}
+
+.block-cap-grid.big_data h3 {
+    margin-left: -84%;
+}
+
+.block-cap-grid.feature_trending h3 {
+    margin-left: -68%;
+}
+
+.art_grid_right li {
+    color: black;
+    float: left;
+    text-align: left;
+}
+
+.white .art_grid .row {
+    padding-top: 14px;
+}
+.art_grid_right p {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+i.fa.fa-twitter-square {
+    color: #56CDD5;
+    font-size: 45px;
+    text-align: left;
+    float: left;
+}
+
+i.fa.fa-facebook-square {
+    font-size: 45px !important;
+    color: #3078C2;
+    float: left;
+}
+i.fa.fa-facebook-square {
+    font-size: 45px !important;
+    color: #3078C2;
+    float: left;
+}
+
+
+
+i.fa.fa-google-plus-square {
+    font-size: 45px !important;
+    color:#D61F1F;
+    float: left 
+    }
+
+i.fa.fa-rss-square {
+
+    font-size: 45px !important;
+    color: #fea900  ;
+    float: left 
+}
+
+
+.custom_nav_bar.navbar, .custom_nav_bar.dropdown-menu{
+background:rgba(255,255,255,0.25);
+border: none;
+
+}
+
+.custom_nav_bar.nav>li>a, .custom_nav_bar.dropdown-menu>li>a:focus, .custom_nav_bar.dropdown-menu>li>a:hover, .custom_nav_bar.dropdown-menu>li>a, .custom_nav_bar.dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.custom_nav_bar.nav>li>a:focus, .custom_nav_bar.nav>li>a:hover,.custom_nav_bar.nav .open>a, .custom_nav_bar.nav .open>a:focus, .custom_nav_bar.nav .open>a:hover, .custom_nav_bar.dropdown-menu>li>a:focus, .custom_nav_bar.dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.custom_nav_bar.navbar a, .custom_nav_bar.dropdown-menu>li>a, .custom_nav_bar.dropdown-menu>li>a:focus, .custom_nav_bar.dropdown-menu>li>a:hover{
+ color: #fff !important;
+}
+.custom_nav_bar.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.custom_nav_bar.nav li:hover:nth-child(8n+1),.custom_nav_bar.nav li.active:nth-child(8n+1){
+  border-bottom: #C4E17F 3px solid;
+}
+.custom_nav_bar.nav li:hover:nth-child(8n+2),.custom_nav_bar.nav li.active:nth-child(8n+2){
+  border-bottom: #F7FDCA 3px solid;
+}
+.custom_nav_bar.nav li:hover:nth-child(8n+3),.custom_nav_bar.nav li.active:nth-child(8n+3){
+  border-bottom: #FECF71 3px solid;
+}
+.custom_nav_bar .nav li:hover:nth-child(8n+4), .custom_nav_bar .nav li.active:nth-child(8n+4){
+  border-bottom: #F0776C 3px solid;
+}
+.custom_nav_bar .nav li:hover:nth-child(8n+5), .custom_nav_bar .nav li.active:nth-child(8n+5){
+  border-bottom: #DB9DBE 3px solid;
+}
+.custom_nav_bar .nav li:hover:nth-child(8n+6), .custom_nav_bar .nav li.active:nth-child(8n+6){
+  border-bottom: #C49CDE 3px solid;
+}
+.custom_nav_bar .nav li:hover:nth-child(8n+7),.custom_nav_bar .nav li.active:nth-child(8n+7){
+  border-bottom: #669AE1 3px solid;
+}
+.custom_nav_bar .nav li:hover:nth-child(8n+8), .custom_nav_bar .nav li.active:nth-child(8n+8){
+  border-bottom: #62C2E4 3px solid;
+}
+
+
+.custom_nav_bar .navbar ul li a {
+    border-left: none !important;
+    border-right: none !important;
+    color: black !important;
+}
+
+/* Carousel inner image css */
+.carousel-inner .row img {
+    width: 100%;
+    padding: 0px;
+}
+
+.carousel-inner .row {
+    padding:0px !important;
+}
+/* End of the Carousel inner image css */	
+
+
+/* Article slider images */
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+ .well .carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+ }
+/* Reposition the controls slightly */
+.well .carousel-control {
+	left: -12px;
+}
+.well .carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.well .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.well .carousel-indicators li {
+	background: #c0c0c0;
+}
+.well .carousel-indicators .active {
+background: #333333;
+}
+
+/* End of the Article slider images */
+
+.table {
+    color: black;
+    text-align: left;
+}
+
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.well .carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.well .carousel-control {
+	left: -12px;
+}
+.well .carousel-control.right {
+	right: -12px;
+	left: 86% !important;
+}
+/* Changes the position of the indicators */
+.well .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.well .carousel-indicators li {
+	background: #c0c0c0;
+}
+.well .carousel-indicators .active {
+background: #333333;
+}
+
+.well .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev
+{margin-left: -61px !important;}
+
+.well .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev
+{
+    margin-right: -65px !important;
+}
+
+
+/* - Second Header with fixed header after the scrolling the page... */
+
+
+.custom_nav_bar ul .dropdown-menu li  {
+
+    height: 30px;
+    border: none !important;
+}
+
+.custom_nav_bar ul .dropdown-menu {
+
+    min-height: 110px !important;
+}
+
+.custom_nav_bar .navbar ul li a {
+    -webkit-box-shadow: 0px 0 0 #323232 inset;
+}
+
+/* End of the Second header with the fixed header after the scrolling of the page ..*/
+
+.well
+{
+	background-color: #fffefe;
+	padding: 0px !important;
+}
+.thumbnail {
+	border: 0px !important;
+}
+
+.well {
+    min-height: 20px;
+     margin-bottom: 20px;
+    background-color: white !important;
+    border: none !important;
+    border-radius: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+}
